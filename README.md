@@ -4,3 +4,12 @@ A rectangle is described by a length and a width. From those dimensions the tool
 Users sometimes need to scale a rectangle by a factor (for example enlarge by 2 or shrink by 0.5). Scaling by zero or by a negative factor is meaningless and must be refused.
 It should be possible to compare two rectangles and report which has the larger area, or that they are equal. Printing a rectangle should show its dimensions and, usefully, whether it is a square.
 A demonstration should create several rectangles including at least one square, scale one of them, compare areas, and print the objects.
+
+
+GROUP MEMBERS
+1. CHERISSA ITERITEKA  S25B38/045
+2. WANDWASI KEVIN JOEL M25B38/021
+3. LWANGA DARREN JORDAN S25B38/022
+4. AGABA JONATHAN      M25B38/019
+5. NAMANYA HANNAH BRENDA M25B38/043
+6. AKAMPA BILLMAX S25B38/019
