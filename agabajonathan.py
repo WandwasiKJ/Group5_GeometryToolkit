@@ -1,3 +1,10 @@
+#GROUP MEMBERS
+#1. CHERISSA ITERITEKA  S25B38/045
+#2. WANDWASI KEVIN JOEL M25B38/021
+#3. LWANGA DARREN JORDAN S25B38/022
+#4. AGABA JONATHAN      M25B38/019
+#5. NAMANYA HANNAH BRENDA M25B38/043
+#6. AKAMPA BILLMAX S25B38/019
 class Rectangle:
     def __init__(self, length, width):
         # Initialize a rectangle with given length and width
