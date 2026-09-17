@@ -57,6 +57,23 @@ class Rectangle:
             f"Area = {self.area()}, "
             f"Perimeter = {self.perimeter()}"
         )
+    def create_rectangle(number):
+        while True:
+            try:
+                length = float(input(f"Enter the length of rectangle {number}: "))
+                width = float(input(f"Enter the width of rectangle {number}: "))
+
+                return Rectangle(length, width)
+
+            except ValueError as error:
+                print(f"Invalid input: {error}")
+                print("Please enter positive numbers.")
+
+# Create rectangles using user-provided dimensions
+    rectangle1 = create_rectangle(1)
+    rectangle2 = create_rectangle(2)
+    rectangle3 = create_rectangle(3)
+
 
 
 # --------------------------------------------------

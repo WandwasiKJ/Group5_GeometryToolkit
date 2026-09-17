@@ -5,7 +5,7 @@
 #4. AGABA JONATHAN      M25B38/019
 #5. NAMANYA HANNAH BRENDA M25B38/043
 #6. AKAMPA BILLMAX S25B38/019
-class Rectangle:
+class Rectangle:# H
     """Represents a rectangular shape used in layout calculations."""
 
     def __init__(self, length, width):
@@ -15,29 +15,29 @@ class Rectangle:
         self.length = length
         self.width = width
 
-    def area(self):
+    def area(self):# h
         """Return the area of the rectangle."""
         return self.length * self.width
 
-    def perimeter(self):
+    def perimeter(self):# h
         """Return the perimeter of the rectangle."""
         return 2 * (self.length + self.width)
 
-    def is_square(self):
+    def is_square(self):# h
         """Return True if the rectangle is a square."""
         return self.length == self.width
 
-    def scale(self, factor):
+    def scale(self, factor):# c
         """Scale both dimensions by a positive factor."""
         if factor <= 0:
             raise ValueError("Scaling factor must be greater than zero.")
 
         self.length *= factor
-        self.width *= factor
+        self.width = self.width * factor
 
-    def compare_area(self, other):
+    def compare_area(self, other):# c
         """Compare the area of this rectangle with another rectangle."""
-        if not isinstance(other, Rectangle):
+        if not isinstance(other, Rectangle):# function that checks whether an object belongs to a specified class or any of its subclasses.
             raise TypeError("Can only compare areas with another Rectangle.")
 
         if self.area() > other.area():
@@ -47,7 +47,7 @@ class Rectangle:
         else:
             return "The rectangles have equal areas."
 
-    def __str__(self):
+    def __str__(self):#method that defines an object’s human-readable string representation.
         """Return a useful description of the rectangle."""
         shape = "Square" if self.is_square() else "Rectangle"
 
@@ -66,7 +66,7 @@ class Rectangle:
 print("RECTANGLE TOOLKIT DEMONSTRATION")
 print("-" * 40)
 
-# Create several rectangles
+# Create several rectangles(instances of the rectangle class)
 rectangle1 = Rectangle(10, 5)
 rectangle2 = Rectangle(8, 8)       # This is a square
 rectangle3 = Rectangle(6, 4)
@@ -90,8 +90,8 @@ print(rectangle1)
 # Compare areas
 print("\nArea comparison:")
 print(f"Rectangle 1 area: {rectangle1.area()}")
-print(f"Rectangle 3 area: {rectangle3.area()}")
-print(rectangle1.compare_area(rectangle3))
+print(f"Rectangle 2 area: {rectangle2.area()}")
+print(rectangle1.compare_area(rectangle2))
 
 # Demonstrate an invalid action
 print("\nTesting invalid scaling factor:")
