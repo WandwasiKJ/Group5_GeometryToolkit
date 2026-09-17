@@ -87,4 +87,6 @@ if __name__ == "__main__":
         r2.scale(-1)
     except ValueError as e:
         print("Error:", e)
+
+#raising value error helps : enforce rules or constraints, ensure the type of input is correct, but the value itself is inappropriate.      
 #END
